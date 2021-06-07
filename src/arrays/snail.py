@@ -1,5 +1,12 @@
 def snail(snail_map):
+    for i in range(0,len(snail_map)):
+        if i == 0:
+            snail_map[i]
     return []
+
+
+def combine(available_array, current_array, current_row, position=0):
+    pass
 
 
 if __name__ == '__main__':
